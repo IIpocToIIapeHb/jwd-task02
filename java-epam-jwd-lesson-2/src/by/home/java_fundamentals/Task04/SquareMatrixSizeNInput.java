@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class SquareMatrixSizeNInput {
 
-	public int readEvenNumber(String enterMsg) {
+	public int readEvenSizeOfMatrix(String enterMsg) {
 
 		System.out.println(enterMsg);
 

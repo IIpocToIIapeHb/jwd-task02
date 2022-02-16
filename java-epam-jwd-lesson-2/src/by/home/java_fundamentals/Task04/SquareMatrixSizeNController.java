@@ -9,8 +9,7 @@ public class SquareMatrixSizeNController {
 
 		SquareMatrixSizeNInput input = new SquareMatrixSizeNInput();
 
-		int sizeOfMatrix = input.readEvenNumber("Enter an even number");
-
+		int sizeOfMatrix = input.readEvenSizeOfMatrix("Enter even size of Matrix");
 		SquareMatrixSizeNLogic logic = new SquareMatrixSizeNLogic();
 
 		int[][] matrix = logic.createNMatrix(sizeOfMatrix);

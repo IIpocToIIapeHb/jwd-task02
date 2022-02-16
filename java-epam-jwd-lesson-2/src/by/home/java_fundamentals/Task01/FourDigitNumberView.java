@@ -5,7 +5,6 @@ import java.io.PrintStream;
 
 public class FourDigitNumberView {
 
-	InputStream inputStream;
 	PrintStream outputStream;
 
 	public FourDigitNumberView(PrintStream outputStream) {
