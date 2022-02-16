@@ -1,6 +1,5 @@
 package by.home.java_fundamentals.Task01;
 
-import java.io.InputStream;
 import java.io.PrintStream;
 
 public class FourDigitNumberView {

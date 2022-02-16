@@ -24,16 +24,19 @@ public class SquareMatrixSizeNInput {
 		return intNumber;
 
 	}
+	
 
 	// method that requests and returns an integer number
 	private int readInt(Scanner scanner) {
 
 		while (!scanner.hasNextInt()) {
 			scanner.next();
-			System.out.println("Вы ввели не целое чиcло. Попробуйте еще раз");
+			System.out.println("Your entered not the int number. Try again");
 		}
+		
 		return scanner.nextInt();
 	}
+	
 
 	// method that checks if the parameter is a four-digit number
 	private boolean isEvenInt(int number) {
